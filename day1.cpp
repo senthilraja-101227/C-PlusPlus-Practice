@@ -134,7 +134,8 @@ default:
    cout<<a<<" "<<b<<" "<<c<<" ";
 
    //A literal is a constant value directly written in the source code, not a value provided at runtime through input.
-   //Escape sequence is also an literal \n,\t,\v,\a-MAKE ALARM SOUND ,\b-BACKSPACE DELETE ONE LETTER,\r.\t
+   //Escape sequence is also an literal \n,\t,\v,\a-MAKE ALARM SOUND ,\b-BACKSPACE DELETE ONE LETTER,
+   // carriage return -> \r-overwrites after this it starts again from the start.\f-moves to next new page
    cout<<"Hello\bWorld";
 
 
