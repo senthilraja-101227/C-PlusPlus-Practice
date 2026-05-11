@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-/*
+
 int n;
 cin>>n;
 int arr[n];
@@ -24,7 +24,7 @@ cout<<mini<<endl;
 //we use dynamic memory allocation
 
 
-//Reverse a number
+//Reverse a number in array
 int num,count_number=0;
 cin>>num;
 int arr[num];
@@ -75,6 +75,7 @@ int sum=0;
  }
  cout<<reversed_string<<" "<<count_string;
 
+//reversing a number
 
  int number;
  cin>>number;
@@ -87,7 +88,9 @@ while(number>0){
     count_of_number++;
  }
  cout<<rev_number<<endl<<count_of_number<<endl;
- */
+
+
+ //factor of number
 
  int n1;
  cin>>n1;
@@ -99,13 +102,5 @@ while(number>0){
  cout<<factor<<endl;
  }
  }
-//fibonacci series
-/*int n=5;
-int f0=0;
-int f1=1;
 
-int f2=f0+f1;
-for(int i=2;i<n;i++){
-    res+=i
-}*/
 }
