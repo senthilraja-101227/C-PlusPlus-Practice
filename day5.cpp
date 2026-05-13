@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-/*
+
 int n;
 cin>>n;
 int arr[n];
@@ -22,7 +22,7 @@ cout<<maxi<<endl;//finding max element in an array
 cout<<mini<<endl;
 //in Array we need tell the size at first so it created 10 space (ex : size=10) but i only used 5 size then rest of the space is wasted so for that
 //we use dynamic memory allocation
-*/
+
 
 //Reverse a number in array
 int num,count_number=0;
@@ -33,7 +33,7 @@ for(int i=0;i<num;i++){
 }
 //int rev=0;
 for(int i=num-1;i>=0;i--){
-   cout<<arr[i];
+   cout<<arr[i]<<" ";
 
 //cout<<rev<<" ";
 count_number++;
@@ -41,7 +41,7 @@ count_number++;
 
 cout<<endl;
 cout<<count_number<<endl;//count an number
-/*
+
 
 //Print numbers upto N
 int N;
@@ -102,5 +102,5 @@ while(number>0){
  cout<<factor<<endl;
  }
  }
-*/
+
 }
