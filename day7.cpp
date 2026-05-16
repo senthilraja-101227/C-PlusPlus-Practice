@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 int main(){
-/*
+
     //biggest square number less than N
   int num;
    cin>>num;
@@ -49,19 +49,6 @@ int main(){
         continue;
     }
     cout<<i<<" ";
-  }*/
-
-  int a[5]={2,-4,1,3,-7};
-  int b[5];
-  for(int i=0;i<5;i++){
-    if(a[i]>0){
-     b[i]=a[i];
-    }
-
-    else{
-        continue;
-    }
   }
-    cout<<b[i];
 
 }
