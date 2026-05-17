@@ -20,7 +20,7 @@ int main(){
  for(int i=0;i<n;i++){
     cout<<arr[i]<<" ";
  }
-*/
+
 
  // I am not going depth into sorting alogorithms just found one difference between sorting and selection sorting
  //selection sorting find the min element in a array and after that it swap it but in normal sorting we compare one by one if satisfies we swap there may be multiple swap
@@ -42,4 +42,47 @@ int main(){
   for(int i=0;i<n1;i++){
     cout<<arr[i]<<" ";
   }
+  */
+  //matrix multiplication
+
+  int n1,m1;
+  cin>>n1>>m1;
+  int arr1[n1][m1];
+  for(int i=0;i<n1;i++){
+    for(int j=0;j<m1;j++){
+        cin>>arr1[i][j];
+    }
+  }
+  int n2,m2;
+  cin>>n2>>m2;
+  int arr2[n2][m2];
+  for(int i=0;i<n2;i++){
+    for(int j=0;j<m2;j++){
+        cin>>arr2[i][j];
+    }
+  }
+  if(m1!=n2){
+    cout<<"Multiplication not possible";
+    return 0;
+  }
+  int arr3[n1][m2];
+  for(int i=0;i<n1;i++){
+    for(int j=0;j<m2;j++){
+        arr3[i][j]=0;
+    }
+  }
+  for(int i=0;i<n1;i++){
+    for(int j=0;j<m2;j++){
+        for(int k=0;k<m1;k++){
+            arr3[i][j]+=arr1[i][k]*arr2[k][j];
+        }
+    }
+  }
+  for(int i=0;i<n1;i++){
+    for(int j=0;j<m2;j++){
+        cout<<arr3[i][j]<<" ";
+    }
+    cout<<endl;
+  }
+
 }
