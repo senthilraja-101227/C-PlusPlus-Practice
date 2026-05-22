@@ -5,7 +5,7 @@ int main(){
 
    cout<<(3 & 2)<<endl;//o/p 2 0010-2 0011 -3 op->0010 if both 1 then 1 same for or operation (3|2)
    cout<<(3 | 2)<<endl;
-   //  << left shift operator(12<<1) binary of 12 left shit by 1 0000 1100->12 left shift 0001 1000 becomes 24 mostly for left shift it is multiplied by 2 and
+   //  << left shift operator(12<<1) binary of 12 left shift by 1 0000 1100->12 left shift 0001 1000 becomes 24 mostly for left shift it is multiplied by 2 and
    //for right shift(>>) it is divided by 2 but not 100%
 
    //(8>>1)syntax:var>>no. of bit  positions

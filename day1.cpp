@@ -40,12 +40,12 @@ else{
 // > matum kudutha last ah iruka val like else print aguthu 5 6 6 c is 6 nu varum but b tha frst greater so if i need to print b then it should be >=
 
 
-    //switch  float is not handled by switch
+    //switch-->float is not handled by switch
     //multi dimensional control statement
     /*int a,b;
     char op;
     cin>>a>>op>>b;
-    switch(op)// we are able to give only int,ch --only int why ch included in the sense it is also stored as numbers (ascii) in memory
+    switch(op)// we are able to give only int,ch --only int, why ch included in the sense it is also stored as numbers (ascii) in memory
     {
  case '+':
     cout<<a+b;

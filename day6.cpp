@@ -46,13 +46,13 @@ for(int i=rev.length()-1;i>=0;i--){
 int num;
 cin>>num;
 bool isPrime=true;
-for(int i=2;i<num-1;i++){
+for(int i=2;i<num;i++){
     if(num%i==0){
         isPrime=false;
         break;
             }
 }
-if(isPrime==true){
+if(isPrime){
     cout<<"Prime";
 }
 else{
