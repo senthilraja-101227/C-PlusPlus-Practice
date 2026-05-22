@@ -62,7 +62,7 @@ int n;
 cin>>n;
 printn_to_one(n);
 }
-*/
+
 
 //print 1 to N
 void printone_to_n(int n){
@@ -76,4 +76,18 @@ int main(){
 int n;
 cin>>n;
 printone_to_n(n);
+}
+*/
+//sum of frst n numbers
+int sumofn(int n){
+if(n==0){
+    return 0;
+}
+return n+sumofn(n-1);
+
+}
+int main(){
+int n;
+cin>>n;
+cout<<sumofn(n);
 }
