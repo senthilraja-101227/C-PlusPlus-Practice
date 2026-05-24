@@ -78,6 +78,8 @@ cin>>n;
 printone_to_n(n);
 }
 */
+
+
 //sum of frst n numbers
 int sumofn(int n){
 if(n==0){
