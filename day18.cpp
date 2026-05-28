@@ -1,4 +1,4 @@
-//Revision ->>day 6
+//Revision ->>day 6 and day 7
 
 #include<iostream>
 #include<algorithm>
