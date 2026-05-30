@@ -1,5 +1,5 @@
 //Revision ->>day 6 and day 7
-
+//Continue with day 8,9 and 10
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -27,7 +27,6 @@ for(int i=0;i<s.lengt
     }
 }
 cout<<count_word;
-*/
 
 string s1;
 getline(cin,s1);
@@ -38,5 +37,28 @@ for(int i=0;i<s1.length();i++){
        }
 }
 cout<<count_words;
-}
 
+*/
+
+//finding second largest ele in a array
+
+
+int n;
+cin>>n;
+int arr[n];
+for(int i=0;i<n;i++){
+    cin>>arr[i];
+}
+int largest=arr[0];
+int secondlargest=-1;
+for(int i=1;i<n;i++){
+    if(arr[i]>largest){
+        secondlargest=largest;
+        largest=arr[i];
+    }
+    else if(arr[i]>secondlargest && arr[i]!=largest){
+        secondlargest=arr[i];
+    }
+}
+cout<<secondlargest;
+}
