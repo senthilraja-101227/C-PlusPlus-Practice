@@ -34,7 +34,7 @@ int maxi,Evencount,Oddcount,sum;
 char ch;
 do{
         cout << "M: Max element\nE: Even/Odd count\nR: Reverse\nS: Sum\nQ: Quit\n";
-        cout<<"Enter your choice";
+        cout<<"Enter your choice: ";
         cin>>ch;
     switch(ch){
 case 'M':

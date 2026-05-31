@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-
+/*
   //fibonacci series
     int n;
     cin>>n;
@@ -15,7 +15,7 @@ for(int i=2;i<n;i++){
 
 cout<<next<<" ";
 }
-
+*/
 //count no. of words in string
 string s;
 getline(cin,s);
@@ -27,14 +27,14 @@ for(int i=0;i<s.length();i++){
 }
 cout<<count_word;
 
-
+/*
 //decimal to binary
 
 int decimalnum;
 cin>>decimalnum;
 string rev="";
 while(decimalnum>0){
-    char rem=decimalnum%2;
+    int rem=decimalnum%2;
     decimalnum/=2;
     rev+= to_string(rem);
 }
@@ -58,5 +58,5 @@ if(isPrime){
 else{
     cout<<"Not Prime";
 }
-
+*/
 }
