@@ -118,7 +118,7 @@ delete p;
 create when needed
 delete when not needed
 
-Global / Static Memory (Program lifetime)
+Global / Static Memory (Program lifetime)--data segment
 int a = 10;  // outside main
 or
 static int x = 5;
