@@ -13,7 +13,7 @@ using namespace std;
  lifetime = how long the variable exists in memory
  */
 
-/*void func(){
+void func(){
 int x=0;
 x++;
 cout<<x<<endl;
@@ -22,8 +22,8 @@ int main(){
 func();
 func();
 func();
-}*/
-
+}
+/*
 void func(){
 static int x=0;
 x++;
@@ -33,4 +33,4 @@ int main(){
 func();
 func();
 func();
-}
+}*/
