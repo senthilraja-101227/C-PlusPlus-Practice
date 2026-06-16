@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-
+/*
 int n;
 cin>>n;
 int arr[n];
@@ -89,7 +89,7 @@ while(number>0){
  }
  cout<<rev_number<<endl<<count_of_number<<endl;
 
-
+*/
  //factor of number
 
  int n1;
@@ -99,8 +99,8 @@ while(number>0){
     if(n1%i==0){
        factor=i;
 
- cout<<factor<<endl;
+ cout<<factor<<" ";
  }
  }
-
+cout<<endl;
 }

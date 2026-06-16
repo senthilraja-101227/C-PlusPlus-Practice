@@ -49,6 +49,27 @@ So, if(isPrime) simply means:
     cout<<endl;
    }
 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+	string s1;
+	cin>>s1;
+
+//reverse(s2.begin(), s2.end());
+string s3="";
+for(int i=s2.length()-1;i>=0;i--){
+    s3+=s2[i];
+}
+	if(s1==s3){
+	    cout<<"Palindrome";
+	}
+	else{
+	    cout<<"Not a Palindrome";
+	}
+
+}
 
 
    //functions-->subprogram to do some specific tasks

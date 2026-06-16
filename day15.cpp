@@ -43,7 +43,7 @@ void reverse_number(int n){
     return;
  }
  cout<<n%10;
-   reverse_number(n/10);
+ reverse_number(n/10);
 
 }
 int main(){
